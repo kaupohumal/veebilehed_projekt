@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
+body {
+    background: linear-gradient(180deg, #FFF4F6 0%, rgba(255, 223, 223, 0) 100%) fixed;
+}
+
+.col-3 img, .col-4 img{
+    width: 100%;
+}
+
+.col-3 {
+    padding: 0 3px !important;
+}
+
+.three {
+    padding: 0 !important;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 30px;
+}
