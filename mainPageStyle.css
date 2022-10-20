@@ -29,6 +29,7 @@ h1 {
     height: auto;
     max-height: 200px;
     min-height: 150px;
+    object-fit: cover;
 }
 
 /*Navigatsiooniriba */
@@ -76,6 +77,7 @@ nav div {
     height: 50%;
     max-height: 500px;
     min-height: 400px;
+    object-fit: cover;
 }
 
 .banner-text {
@@ -120,7 +122,12 @@ h4 {
 }
 
 @media screen and (max-width: 670px) {
-    .navbar {
+    .navbar, .nav1, .menu {
+        display: flex;
         flex-direction: column;
+    }
+
+    .menu {
+        margin: 15px;
     }
 }
