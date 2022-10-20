@@ -1,0 +1,43 @@
+footer {
+  background: #F0B33DA8;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+section {
+  margin: 30px;
+  padding: 32px;
+  background: #FDF0C3;
+}
+
+footer div {
+  margin: 25px;
+  text-align: center;
+}
+
+
+.divider {
+  height:10rem;
+}
+.page-header {
+  margin:50px;
+}
+
+.sectionBtns {
+  display:flex;
+  align-items: start;
+
+  flex-direction: column;
+}
+
+.sectionBtns > button {
+  font-size: 1.25rem;
+  width: 10rem;
+  margin: 40px 12px 12px 24px;
+  
+ padding:16px;
+ background: #ffffff;
+ border-radius:10px;
+ border-color: #ffffff;
+}
