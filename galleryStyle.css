@@ -4,7 +4,7 @@ body {
     background: linear-gradient(180deg, #FFF4F6 0%, rgba(255, 223, 223, 0) 100%) fixed;
 }
 
-.col-3 img, .col-4 img{
+.col-3 img{
     width: 100%;
 }
 
@@ -12,20 +12,24 @@ body {
     padding: 0 3px !important;
 }
 
-.three {
-    padding: 0 !important;
-}
-
 .row {
-    width: 80%;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 h1 {
     margin-top: 50px;
-    margin-left: 10%;
     margin-bottom: 30px;
     font-family: 'Glass Antiqua', cursive;
     font-size: 30px;
+}
+
+.container {
+    width: 30%;
+}
+
+@media only screen and (max-width: 1900px) {
+    .container {
+        width: 80%;
+    }
 }
