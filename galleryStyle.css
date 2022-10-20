@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 
 body {
     background: linear-gradient(180deg, #FFF4F6 0%, rgba(255, 223, 223, 0) 100%) fixed;
@@ -17,7 +18,7 @@ body {
     margin-bottom: 15px;
 }
 
-h1 {
+.gallery-title {
     margin-top: 50px;
     margin-bottom: 30px;
     font-family: 'Glass Antiqua', cursive;
@@ -28,8 +29,89 @@ h1 {
     width: 30%;
 }
 
+.main-header {
+    position: relative;
+    text-align: center;
+}
+
+.header-text {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    min-height: 150px;
+    object-fit: cover;
+}
+
+h1 {
+    font-family: 'Allison', cursive;
+    font-size: 8em;
+}
+
+.navbar {
+    background: #F0B33DA8;
+    height: auto;
+    padding: 10px;
+}
+
+nav div {
+    font-weight: 500;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    gap: 2em;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.menu-link, .link {
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.menu-link {
+    color: black;
+}
+
+.logo-img {
+    height: 50px;
+}
+
 @media only screen and (max-width: 1900px) {
     .container {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .navbar, .nav1, .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        margin: 15px;
     }
 }
