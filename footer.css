@@ -1,0 +1,28 @@
+footer div {
+  margin: 25px;
+  text-align: center;
+}
+
+footer {
+  background: #F0B33DA8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  height: 160px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-icon {
+  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+}

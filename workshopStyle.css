@@ -1,9 +1,4 @@
-footer {
-  background: #F0B33DA8;
-  display: flex;
-  align-items: center;
-  justify-content:space-around;
-}
+
 
 section {
   margin: 30px;
@@ -11,14 +6,10 @@ section {
   background: #FDF0C3;
 }
 
-footer div {
-  margin: 25px;
-  text-align: center;
-}
 
 
 .divider {
-  height:10rem;
+  height:8rem;
 }
 .page-header {
   margin:50px;
@@ -41,3 +32,8 @@ footer div {
  border-radius:10px;
  border-color: #ffffff;
 }
+
+.hidden {
+  display:none;
+}
+
