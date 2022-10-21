@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
 
 body {
-    background-color: #FFECEC;
+    background: linear-gradient(180deg, #FFF4F6 0%, rgba(255, 223, 223, 0) 100%) fixed;
 }
 
 /*Päis */
