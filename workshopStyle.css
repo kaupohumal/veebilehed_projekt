@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
 
 section {
   margin: 30px;
@@ -35,5 +35,10 @@ section {
 
 .hidden {
   display:none;
+}
+
+.inline {
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 48px;
 }
 
